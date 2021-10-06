@@ -27,6 +27,7 @@ Use with statement to open file - makes code cleaner then: file = open('file.txt
 For loop is used to iterate through the lines, and to split each line into a list so that the data can be gathered by the index, making it easy to insert into the database via the insert query statement. 
 
 
+
   Ex: list = line.split(',') 
       data1 = list[0]
       data2 = list[2]
