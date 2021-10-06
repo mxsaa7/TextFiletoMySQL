@@ -1,11 +1,20 @@
 # TextFiletoMySQL
+
+
 *View in raw format*
+
+
 Basic Python automation script that opens a .txt file and inserts the data into a MySQL table
 
 I decided to create this script because my current work position as an IT Support Specialist requires me to insert data into a database. Initially, I like to format the data into a .txt file within notepad as: 
+
+
             User: John Doe                                                                User, UserID, UserEmail
             UserID: 12356                                   or                           John Doe, 12356, john.doe@domain.com
             UserEmail: john.doe@domain.com                                               Jane Doe, 56789, jane.doe@domain.com 
+            
+            
+            
 My goal is to modify this script to ignore the header/text before the semi-colon, so that they can indicate what the information is within the text-file, but not be inserted into the database.
 
 I also plan on modifying this scrit to accept user input - database name, db user, db password, hostname (or to find an easier way for it to connect to the DB so it doesn't need to keep being re-entered. My other plan is to prompt the user to type in the .txt file name and to deal with typo errors. 
