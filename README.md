@@ -1,4 +1,5 @@
 # TextFiletoMySQL
+*View in raw format*
 Basic Python automation script that opens a .txt file and inserts the data into a MySQL table
 
 I decided to create this script because my current work position as an IT Support Specialist requires me to insert data into a database. Initially, I like to format the data into a .txt file within notepad as: 
