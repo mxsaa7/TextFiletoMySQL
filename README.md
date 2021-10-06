@@ -25,15 +25,20 @@ Uses a cursor object to allow scripts to be executed into MySQL from python
 
 Use with statement to open file - makes code cleaner then: file = open('file.txt', 'r') 
 For loop is used to iterate through the lines, and to split each line into a list so that the data can be gathered by the index, making it easy to insert into the database via the insert query statement. 
+
+
   Ex: list = line.split(',') 
       data1 = list[0]
       data2 = list[2]
+
 
 The data variable tied to the list index value, is placed into the insert query, and when run, it is inserted into MySQL table, and it is printed ("1 record inserted") depending on how many lines there are (since for loop iterates that many times)
 
 *Error that is received in the console - 'data1 = list[1] is out of range' - values still are inserted and '1 record inserted' is printed
 
 Feel free to contact me with any suggestions or ideas you come up with to improve or add to the script!
+
+
               Ethan.garr2000@gmail.com  
               garr0118@algonquinlive.com
               
